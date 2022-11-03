@@ -11,7 +11,7 @@ Time spent: **8** hours spent in total
   - Vulnerability types: XSS
   - Tested in version: 4.2
   - Fixed in version: 4.7.5
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="XSS-1.gif">
 - [ ] Steps to recreate: [This link](https://hackerone.com/reports/203515) provides a walkthrough of how to view the "file to large" error which ends up interpolating the file name and appending it into DOM unsanitized leading to XSS. 
 - [ ] Affected source code:
   - [Link 1](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
