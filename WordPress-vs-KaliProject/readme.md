@@ -22,7 +22,7 @@ Time spent: **8** hours spent in total
   - Vulnerability types: XSS
   - Tested in version: 4.2
   - Fixed in version: 4.7.3
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="XSS-2.gif">
 - [ ] Steps to recreate: The shortcode provided in [this link](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html) shows how to get a working stored XSS exploit
 - [ ] Affected source code:
   - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
@@ -33,7 +33,7 @@ Time spent: **8** hours spent in total
   - Vulnerability types: Cross-Site Scripting (XSS)
   - Tested in version: 4.2
   - Fixed in version: 4.2.3 
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="XSS-3.gif">
 - [ ] Steps to recreate: The code provided in [this link](https://klikki.fi/wordpress-core-stored-xss/) demonstrates the vulnerability. It should be entered in a page or posting using the HTML edit mode (instead of of the default WYSIWYG).
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/33359)
