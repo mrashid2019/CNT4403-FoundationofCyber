@@ -1,4 +1,5 @@
-# Project 7 - WordPress Pen Testing
+# Week 7 Project: WordPress vs. Kali
+## Project 7 - WordPress Pen Testing
 
 Time spent: **8** hours spent in total
 
