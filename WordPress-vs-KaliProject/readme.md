@@ -1,65 +1,44 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+### 1. Large File Upload Error XSS (ID: CVE-2017-9061)
+- [ ] Summary: There was a Cross-Site Scripting (XSS) vulnerability which existed when attempting to upload very large files, becuase the error messgae does not properly restrict presentation of the filename. 
+  - Vulnerability types: XSS
+  - Tested in version: 4.2
+  - Fixed in version: 4.7.5
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+- [ ] Steps to recreate: [This link](https://hackerone.com/reports/203515) provides a walkthrough of how to view the "file to large" error which ends up interpolating the file name and appending it into DOM unsanitized leading to XSS. 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds (ID: CVE-2017-6817)
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+- [ ] Summary: There is authenticated Cross-Site Scripting (XSS) in YouTube URL Embeds.
+  - Vulnerability types: XSS
+  - Tested in version: 4.2
+  - Fixed in version: 4.7.3
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+- [ ] Steps to recreate: The shortcode provided in [this link](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html) shows how to get a working stored XSS exploit
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 
-### 3. (Required) Vulnerability Name or ID
+### 3. Authenticated Stored Cross-Site Scripting (XSS) (ID: CVE-2015-5622)
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+- [ ] Summary: The stored XSS vulnerability in WordPress allows users to inject web scripts or HTML by leveraging the Author or Contributor role to place a shortcode inside an HTML element.
+  - Vulnerability types: Cross-Site Scripting (XSS)
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.3 
 - [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+- [ ] Steps to recreate: The code provided in [this link](https://klikki.fi/wordpress-core-stored-xss/) demonstrates the vulnerability. It should be entered in a page or posting using the HTML edit mode (instead of of the default WYSIWYG).
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://core.trac.wordpress.org/changeset/33359)
 
-### 4. (Optional) Vulnerability Name or ID
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
@@ -82,7 +61,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [2023] [Mahdia Rashid]
+    Copyright [2022] [Mahdia Rashid]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
