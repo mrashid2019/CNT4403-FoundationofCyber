@@ -50,16 +50,15 @@ No additional assets
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with  ...
-<!-- Recommended GIF Tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
+GIFs created with  
+- [Kap](https://getkap.co/) for macOS
+- [ScreenToGif](https://www.screentogif.com/) for Windows
 
 
 ## Notes
 
-### Challenges:
-  - Attack 1: No challenges
+Challenges:
+  - Attack 1: Faced challenge with uploading file that has special characters on Windows machine, so created gif on Mac OS.
   - Attack 2: No challenges
   - Attack 3: No challenges
 
