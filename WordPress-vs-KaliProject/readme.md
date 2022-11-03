@@ -43,7 +43,7 @@ Time spent: **8** hours spent in total
 
 ## Assets
 
-List any additional assets, such as scripts or files
+No additional assets 
 
 ## Resources
 
@@ -54,11 +54,14 @@ GIFs created with  ...
 <!-- Recommended GIF Tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+### Challenges:
+  - Attack 1: No challenges
+  - Attack 2: No challenges
+  - Attack 3: No challenges
 
 ## License
 
