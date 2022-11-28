@@ -1,12 +1,13 @@
 # Honeypot Assignment
 
-**Time spent:** **X** hours spent in total
+**Time spent:** **18** hours spent in total
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.? <br><br>
+I tryed deploying mhn-admin using Google Cloud Platforms (GCP) but I was unable to sucessfully create the mhn-admin VM because I recieved an error when selecting region saying there is not enough resources to fulfill my request. 
 
 <img src="mhn-admin.gif">
 
@@ -22,25 +23,6 @@
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
-### Deploying Additional Honeypot(s) (Optional)
-
-#### X Honeypot
-
-**Summary:** What does this honeypot simulate and do for a security researcher?
-
-<img src="x-honeypot.gif">
-
-### Malware Capture and Identification (Optional)
-
-#### X Malware
-
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
-
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
-
-<img src="x-malware.gif">
 
 ## Notes
 
