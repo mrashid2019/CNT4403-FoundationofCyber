@@ -7,8 +7,8 @@
 ### MHN-Admin Deployment (Required)
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.? <br><br>
-I tryed deploying mhn-admin using Google Cloud Platforms (GCP) but I was unable to sucessfully create the MHN-Admin VM because I recieved an error when selecting region saying there is not enough resources to fulfill my request. Update - I changed the region to northamerica-northeast1-c and it created the MHN-Admin VM, however when I try to load the page does not load when I type it into my browser. 
-
+I tryed deploying mhn-admin using Google Cloud Platforms (GCP) but I was unable to sucessfully create the MHN-Admin VM because I recieved an error when selecting region saying there is not enough resources to fulfill my request. Update - I changed the region to northamerica-northeast1-c and it created the MHN-Admin VM, however when I try to load the page does it takes a while after I type it into my browser and press enter. 
+<img src="gcp.png">
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
